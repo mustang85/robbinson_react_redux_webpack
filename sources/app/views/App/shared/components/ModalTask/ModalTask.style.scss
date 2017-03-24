@@ -1,0 +1,17 @@
+.ModalTask {
+    &-btn {
+        background: #222;
+        border: 1px solid #222;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 40px;
+        .fa {
+            color: #CCC;
+            font-size: 19px;
+            position: relative;
+        }
+    }
+
+}

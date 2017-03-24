@@ -1,0 +1,2 @@
+export const ADD_PURCHASES = 'ADD_PURCHASES';
+export const CALC_TOTAL_COST = 'CALC_TOTAL_COST';

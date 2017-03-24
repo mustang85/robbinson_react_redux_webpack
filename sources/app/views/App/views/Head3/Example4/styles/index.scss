@@ -1,0 +1,40 @@
+.Purchases {
+    h1 {
+        font-size: 100px;
+        text-align: center;
+        color: rgba(175, 47, 47, 0.15);
+        user-select: none;
+        -webkit-user-select: none;
+        cursor: default;
+        -webkit-text-rendering: optimizeLegibility;
+        -moz-text-rendering: optimizeLegibility;
+        -ms-text-rendering: optimizeLegibility;
+        margin: 20px 0 55px;
+        text-rendering: optimizeLegibility;
+    }
+
+    .container {
+        margin: 0 auto 45px;
+    }
+
+    &Form,
+    &List {
+        h2 {
+            border-bottom: 1px solid #e6e6e6;
+            font-size: 40px;
+            color: #333;
+            margin: 0;
+            margin: 0 0 21px;
+            padding: 0 0 10px;
+            text-align: left;
+        }
+    }
+
+    &Form {
+        &-btn {
+            position: relative;
+            left: -10px;
+            top: 25px;
+        }
+    }
+}
