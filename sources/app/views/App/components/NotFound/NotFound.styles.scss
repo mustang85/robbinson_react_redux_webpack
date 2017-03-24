@@ -1,0 +1,17 @@
+.NotFound {
+    font-size: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 486px;
+    height: 456px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    &__num {
+        display: block;
+        font-size: 210px;
+    }
+}

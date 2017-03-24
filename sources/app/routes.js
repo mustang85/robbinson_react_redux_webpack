@@ -8,6 +8,8 @@ import Purchases from './views/App/views/Head3/Example4/containers';
 import Budget from './views/App/views/Head3/Example5/containers';
 import WeeklyWage from './views/App/views/Head3/Example6/containers';
 
+import NotFound from './views/App/components/NotFound';
+
 
 export default function getRoutes(store) {
   const { getState, dispatch } = store;
@@ -22,6 +24,8 @@ export default function getRoutes(store) {
         <Route path="example5" component={Budget} />
         <Route path="example6" component={WeeklyWage} />
       </Route>
+
+      <Route path='*' component={NotFound} status='404' />
 
     </Route>
   )
